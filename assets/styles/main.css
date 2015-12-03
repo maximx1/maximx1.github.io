@@ -17,8 +17,37 @@
 	height: 200px;
 }
 
+.simpleAutoMargin {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fullWidth {
+	width: 100%;
+}
+
 .supersizeThatShit {
 	font-size: 1.5em;	
+}
+
+.appThumb {
+	max-width: 200px;
+	height: auto;
+}
+
+.partialRule {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.adjustLeft {
+	margin-left: -1em;
+}
+
+.description {
+	padding-top: 1em;
+	height: 6em;
 }
 
 #mainContainer {
