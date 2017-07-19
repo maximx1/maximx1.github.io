@@ -6,6 +6,87 @@ a {
   text-decoration: none;
 }
 
-.infoBar {
-  height: 25px;
+hr {
+  width: 80%;
+}
+
+@media screen and (min-width: 500px) {
+  .main-container {
+    width: 500px;
+  }
+
+  .profile-box {
+    width: 15em;
+  }
+
+  .main-body {
+    width: calc(100% - 20em);
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .main-container {
+    width: 980px;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+  .main-container {
+    width: 99%;
+  }
+
+  .profile-box {
+    width: 100%;
+  }
+
+  .main-body {
+    width: 100%;
+  }
+}
+
+.icon {
+  width: 20px;
+}
+
+.icon-bar {
+  height: 20px;
+  width: 6em;
+  margin-top: 1em;
+}
+
+.div-row-item {
+  display: block;
+  float: left;
+}
+
+.profile-box {
+  background-color: grey;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.main-body {
+  padding: 1em;
+}
+
+.profile {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+  -webkit-filter: grayscale(77%);
+  filter: grayscale(77%);
+}
+
+.center-h {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.name-text {
+  font-family: Oswald;
+  text-align: center;
 }
