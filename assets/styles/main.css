@@ -1,55 +1,11 @@
-.circleThatShit {
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+img {
+  height: 100%;
 }
 
-.centerThatShit {
-	text-align: center;	
+a {
+  text-decoration: none;
 }
 
-.autoMarginThatShit {
-	margin-left: auto;
-	margin-right: auto;
-	width: 200px;
-	height: 200px;
-}
-
-.simpleAutoMargin {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.fullWidth {
-	width: 100%;
-}
-
-.supersizeThatShit {
-	font-size: 1.5em;	
-}
-
-.appThumb {
-	max-width: 200px;
-	height: auto;
-}
-
-.partialRule {
-	width: 85%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.adjustLeft {
-	margin-left: -1em;
-}
-
-.description {
-	padding-top: 1em;
-	height: 6em;
-}
-
-#mainContainer {
-	background: linear-gradient(to bottom, #b3b0aa, white);
+.infoBar {
+  height: 25px;
 }
