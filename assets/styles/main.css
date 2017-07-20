@@ -30,7 +30,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 200px) and (max-width: 500px) {
+@media screen and (min-width: 200px) and (max-width: 475px) {
   .main-container {
     width: 99%;
   }
@@ -39,7 +39,7 @@ hr {
     width: 100%;
   }
 
-  .main-body {
+  .main-body, {
     width: 100%;
   }
 }
