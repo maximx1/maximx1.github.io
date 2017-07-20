@@ -131,3 +131,39 @@ hr {
 .project-item {
   margin-bottom: 2em;
 }
+
+.outer-skills-bar {
+  height: 1em;
+  width: 60%;
+  padding: 2px;
+  background-color: white;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  position: relative;
+}
+
+.skill {
+  background-color: grey;
+  height: 100%;
+  margin-left: 0;
+  font-family: Oswald;
+  font-size: 75%
+}
+
+.skill span {
+  position: absolute;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+#java { width: 100%; }
+#scala { width: 90%; }
+#js { width: 85%; }
+#html { width: 70%; }
+#css { width: 70%; }
+#python { width: 90%; }
+#data { width: 100%; }
+#devops { width: 90%; }
+#admin { width: 70%; }
+#git { width: 100%; }
